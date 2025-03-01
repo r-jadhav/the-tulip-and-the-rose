@@ -120,7 +120,7 @@ const WeekendBrunch = () => {
 
                         </div>
                     </div>
-
+                    <img src="../images/section/divider.png" className="vertical-line" alt="Vertical Line" />
                     <div className="col-lg-6">
 
                         <div className="heading-section text-center">
@@ -313,7 +313,7 @@ const WeekendBrunch = () => {
 
                         </div>
                     </div>
-
+                    <img src="../images/section/divider.png" className="vertical-line" alt="Vertical Line" />
                     <div className="col-lg-6">
 
                         <div className="heading-section text-center">

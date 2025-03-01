@@ -4348,7 +4348,7 @@ a.mapboxgl-ctrl-logo {
 
 .heading-section .title {
   color: var(--Black);
-  font-family: "Inter", sans-serif;
+  font-family: "CormorantInfant", sans-serif;
   font-weight: 700;
   margin-bottom: 11px;
   letter-spacing: 2.2px;
@@ -5258,7 +5258,7 @@ a.mapboxgl-ctrl-logo {
 
 .section-why .item2 {
   position: absolute;
-  bottom: 294px;
+  bottom: 380px;
   right: 0;
   z-index: -1;
 }
@@ -5852,11 +5852,15 @@ a.mapboxgl-ctrl-logo {
   margin-bottom: 39px;
 }
 
-.section-our-team .heading-section .short-desc {
-  padding: 0 8px;
-  line-height: 35px;
-  letter-spacing: 0.3px;
-  color: var(--text-2);
+.heading-section .short-desc {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  color: var(--text);
+  letter-spacing: 0.2px;
+  margin-bottom: 0 !important;
 }
 
 .section-our-team .grid-layout-3 {
@@ -6013,6 +6017,17 @@ a.mapboxgl-ctrl-logo {
   .is-fixed .header-logo {
     top: 0;
   }
+}
+
+@media (min-width: 992px) {
+  .vertical-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: inherit;
+  }
+
 }
 
 /*max-width
@@ -6285,6 +6300,10 @@ a.mapboxgl-ctrl-logo {
 
   .section-menu .wrap-menu-item {
     margin-left: 0;
+  }
+
+  .vertical-line {
+    display: none;
   }
 }
 
