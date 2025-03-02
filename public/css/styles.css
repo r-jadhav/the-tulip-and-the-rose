@@ -246,8 +246,8 @@ textarea {
 }
 
 p {
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -3783,13 +3783,18 @@ a.mapboxgl-ctrl-logo {
 
 .portfolio-item .wrap-image {
   overflow: hidden;
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
+}
+
+.portfolio-item.hover-img.fl-item {
+  border-radius: 20px;
 }
 
 .portfolio-item .wrap-image img {
   width: 100%;
-  height: 432px;
+  /* height: 432px; */
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .portfolio-item .content {
@@ -4172,6 +4177,12 @@ a.mapboxgl-ctrl-logo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 68px 30px;
+}
+
+.grid-layout-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .grid-layout-5 {
@@ -5241,7 +5252,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .section-why .content {
-  padding-top: 98px;
+  /* padding-top: 98px; */
 }
 
 .section-why .content .heading-section {
@@ -5249,7 +5260,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .section-why .content .heading-section .title {
-  margin-bottom: 27px;
+  /* margin-bottom: 27px; */
 }
 
 .section-why .counter {
@@ -5278,7 +5289,7 @@ a.mapboxgl-ctrl-logo {
 
 .section-why.page-about .content {
   margin-left: -13px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .section-why.page-about .content .heading-section {
@@ -5290,7 +5301,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .section-why.page-about .content .heading-section .title {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .section-why.page-about .content .heading-section .paragraph-1 {
@@ -5963,6 +5974,12 @@ a.mapboxgl-ctrl-logo {
   animation: tf-preload 3s ease-in-out infinite;
 }
 
+img.horidivider {
+  margin: auto;
+  display: flex;
+  margin-bottom: 60px;
+}
+
 @keyframes tf-preload {
 
   0%,
@@ -6171,7 +6188,7 @@ a.mapboxgl-ctrl-logo {
 
 @media (max-width: 991px) {
   br {
-    display: none;
+    /* display: none; */
   }
 
   .item1,
@@ -6181,6 +6198,11 @@ a.mapboxgl-ctrl-logo {
 
   .grid-layout-3 {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px !important;
+  }
+
+  .grid-layout-4 {
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px 20px !important;
   }
 
@@ -6368,6 +6390,10 @@ a.mapboxgl-ctrl-logo {
 
   .grid-layout-3 {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-layout-4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .page-title {
