@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                                 <div className="col-12">
                                     <div className="header-inner-wrap">
                                         <div className="header-logo">
-                                            <a href="#" className="site-logo">
+                                            <a href="/" className="site-logo">
                                                 <img id="logo_header" alt="" src={logo}
                                                     data-retina={logo} />
                                             </a>
@@ -59,10 +59,10 @@ const Header: React.FC = () => {
                                                         <li><a href="404.html">404 PAGE</a></li>
                                                     </ul>
                                                 </li> */}
-                                                    <li><a href="#">Weekend Brunch</a></li>
+                                                    <li><a href="weekend-brunch">Weekend Brunch</a></li>
                                                     <li><a href="#">Dinner Menu</a></li>
                                                     <li><a href="#">Catering & Private Events</a></li>
-                                                    <li><a href="#">Our Story</a></li>
+                                                    <li><a href="our-story">Our Story</a></li>
                                                 </ul>
                                             </nav>
                                         </div>
